@@ -1,0 +1,19 @@
+<!doctype HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test Static Index</title>
+</head>
+<body>
+
+<button onclick="loadHTTPContent('https://google.ru', onLoad)">Load MSDN HTTP Content</button>
+<img src="~/my_static/images/scorn.jpg" alt="Scorn Dasein"/>
+<script type="text/javascript" src="js/test_query.js"></script>
+<script>
+    function onLoad(content)
+    {
+        document.body.innerText = content;
+    }
+</script>
+</body>
+</html>

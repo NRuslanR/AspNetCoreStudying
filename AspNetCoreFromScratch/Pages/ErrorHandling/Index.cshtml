@@ -1,0 +1,36 @@
+@model AspNetCoreFromScratch.ErrorViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>title</title>
+    <style>
+        
+        .boxed {
+            
+            display: inline-block;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        
+        .green-background {
+        
+            background-color: limegreen;
+            
+        }
+        
+    </style>
+</head>
+<body>
+<div class="boxed green-background">
+    <h3>@Model.Message</h3>
+</div>
+<h3>Copyright &copy; 2002 - @DateTime.Now.Year;</h3> 
+</body>
+</html>

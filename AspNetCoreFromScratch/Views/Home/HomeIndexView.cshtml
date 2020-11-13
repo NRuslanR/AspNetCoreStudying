@@ -1,0 +1,34 @@
+@using AspNetCoreFromScratch;
+@using AspNetCoreFromScratch.Services;
+@using Microsoft.Extensions.Options;
+
+@model HomeIndexViewModel;
+
+@inject IStyles Styles;
+@inject IOptions<ColorOptions> Colors;
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+@Styles.headerWrap(
+        Model.Content, 
+        HeaderLevel.h1, 
+        $"color: {Colors.Value.TextColor}; background: {Colors.Value.BackgroundColor}"
+    
+    );
+@Styles.paragraphWrap(Model.Status, $"color: {Colors.Value.TextColor}");
+<h2>@Model.Status</h2>
+<h3>
+    <environment include="Development">
+        Development Environment
+    </environment>
+    <environment include="Production">
+        Production Environment
+    </environment>
+</h3>
+</body>
+</html>

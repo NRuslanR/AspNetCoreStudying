@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_AspNetCoreFromScratch.1122843055.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="AspNetCoreFromScratch" t="IncludeRecursive">
+        <e p="AspNetCoreFromScratch.csproj" t="IncludeRecursive" />
+        <e p="ColorOptions.cs" t="Include" />
+        <e p="CustomConstraint.cs" t="Include" />
+        <e p="DatabaseLogger.cs" t="Include" />
+        <e p="DatabaseLoggerFactoryExtensions.cs" t="Include" />
+        <e p="DatabaseLoggerProvider.cs" t="Include" />
+        <e p="DatabaseLoggingConfiguration.cs" t="Include" />
+        <e p="ErrorHandlingController.cs" t="Include" />
+        <e p="ErrorViewModel.cs" t="Include" />
+        <e p="HomeController.cs" t="Include" />
+        <e p="HomeIndexViewModel.cs" t="Include" />
+        <e p="KeyPerFile" t="Include">
+          <e p="test1.json" t="Include" />
+          <e p="test2.css" t="Include" />
+          <e p="test3.txt" t="Include" />
+        </e>
+        <e p="LoggingMiddleware.cs" t="Include" />
+        <e p="Pages" t="Include">
+          <e p="ErrorHandling" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="PositionOptions.cs" t="Include" />
+        <e p="ProductsController.cs" t="Include" />
+        <e p="ProductsLinkMiddleware.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="IStyles.cs" t="Include" />
+          <e p="Impls" t="Include">
+            <e p="StandardStyles.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="StylizationServicesExtension.cs" t="Include" />
+        <e p="TopItemSettings.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="Home" t="Include">
+            <e p="HomeIndexView.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="AspNetCoreFromScratch.AssemblyInfo.cs" t="Include" />
+              <e p="AspNetCoreFromScratch.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="position.xml" t="Include" />
+        <e p="static" t="Include">
+          <e p="images" t="Include">
+            <e p="scorn.jpg" t="Include" />
+          </e>
+          <e p="index.html" t="Include" />
+          <e p="js" t="Include">
+            <e p="test_query.js" t="Include" />
+          </e>
+        </e>
+        <e p="topitem.json" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="index.html" t="Include" />
+          <e p="js" t="Include">
+            <e p="test_query.js" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="AspNetCoreFromScratch.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
