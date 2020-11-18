@@ -80,6 +80,54 @@
         </e>
       </e>
       <e p="AspNetCoreFromScratch.sln" t="IncludeFlat" />
+      <e p="Mvc" t="IncludeRecursive">
+        <e p="Application" t="Include">
+          <e p="Services" t="Include">
+            <e p="Trees" t="Include" />
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="Trees" t="Include">
+            <e p="TreesController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Model" t="Include">
+          <e p="Trees" t="Include">
+            <e p="TreeListViewModel.cs" t="Include" />
+            <e p="TreeViewModel.cs" t="Include" />
+            <e p="TreesIndexViewModel.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Mvc.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+          </e>
+          <e p="Trees" t="Include">
+            <e p="Partials" t="Include">
+              <e p="_TreeList.cshtml" t="Include" />
+            </e>
+            <e p="index.cshtml" t="Include" />
+          </e>
+          <e p="_ViewStart.cshtml" t="Include" />
+        </e>
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Mvc.AssemblyInfo.cs" t="Include" />
+              <e p="Mvc.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>

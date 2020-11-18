@@ -25,7 +25,8 @@ namespace AspNetCoreFromScratch
                 .ConfigureWebHostDefaults(
                     webHostBuilder =>
                     {
-                        webHostBuilder.ConfigureServices(
+                        webHostBuilder
+                            .ConfigureServices(
                             (ctx, services) =>
                             {
                                 services.Configure<HostOptions>(

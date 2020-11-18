@@ -27,5 +27,10 @@ namespace AspNetCoreFromScratch
             
             return Content("View for product with id: " + productId);
         }
+
+        public IActionResult Redirect()
+        {
+            return Content(Url.Action("Index", "Home", new {id = 22}));
+        }
     }
 }
