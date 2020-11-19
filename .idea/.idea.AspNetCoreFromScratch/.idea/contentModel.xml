@@ -128,6 +128,50 @@
           </e>
         </e>
       </e>
+      <e p="WebAPI" t="IncludeRecursive">
+        <e p="Application" t="Include">
+          <e p="Services" t="Include">
+            <e p="Books" t="Include">
+              <e p="Dtos" t="Include">
+                <e p="BookDto.cs" t="Include" />
+              </e>
+              <e p="IBookAccountingService.cs" t="Include" />
+              <e p="Impls" t="Include">
+                <e p="FakeInMemoryBookAccountingService.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="Books" t="Include">
+            <e p="BooksController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Model" t="Include">
+          <e p="Books" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services_Extensions" t="Include">
+          <e p="Books" t="Include">
+            <e p="BookServicesExtensions.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WebAPI.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="WebAPI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>

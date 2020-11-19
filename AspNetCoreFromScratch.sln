@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreFromScratch", "As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc", "Mvc\Mvc.csproj", "{6D9A3370-A098-4C69-93A6-1E6F1D9FBD51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{3E6DACD7-C740-4470-B2AF-85E9B4E1FD64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{6D9A3370-A098-4C69-93A6-1E6F1D9FBD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D9A3370-A098-4C69-93A6-1E6F1D9FBD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D9A3370-A098-4C69-93A6-1E6F1D9FBD51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6DACD7-C740-4470-B2AF-85E9B4E1FD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6DACD7-C740-4470-B2AF-85E9B4E1FD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6DACD7-C740-4470-B2AF-85E9B4E1FD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6DACD7-C740-4470-B2AF-85E9B4E1FD64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
