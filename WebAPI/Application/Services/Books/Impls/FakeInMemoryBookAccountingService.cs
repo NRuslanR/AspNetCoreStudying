@@ -36,14 +36,43 @@ namespace WebAPI.Application.Services.Books.Impls
             });
         }
         
-        public Task<IEnumerable<BookDto>> FindAll()
+        public async Task<IEnumerable<BookDto>> FindAll()
         {
-            return Task.FromResult<IEnumerable<BookDto>>(FakeBooks);
+            return FakeBooks;
         }
 
-        public Task<BookDto> FindById(int bookId)
+        public async Task<BookDto> FindById(int bookId)
         {
-            return Task.FromResult(FakeBooks.Find(fakeBook => fakeBook.Id == bookId));
+            return FakeBooks.Find(fakeBook => fakeBook.Id == bookId);
+        }
+
+        public async Task<BookDto> AddBook(BookDto newBookDto)
+        {
+            newBookDto.Id = FakeBooks.Count + 1;
+            
+            FakeBooks.Add(newBookDto);
+
+            return newBookDto;
+        }
+
+        public async Task UpdateBook(BookDto bookDto)
+        {
+            BookDto oldBookDto = await FindById(bookDto.Id);
+            
+            if (oldBookDto is null)
+                throw new BookNotFoundException($"Book with id = {bookDto.Id} not found for update");
+
+            FakeBooks[FakeBooks.IndexOf(oldBookDto)] = bookDto;
+        }
+
+        public async Task RemoveBook(int bookId)
+        {
+            BookDto removeableBookDto = await FindById(bookId);
+            
+            if (removeableBookDto is null)
+                throw new BookNotFoundException($"Book with id = {bookId} not found for remove");
+
+            FakeBooks.Remove(removeableBookDto);
         }
     }
 }

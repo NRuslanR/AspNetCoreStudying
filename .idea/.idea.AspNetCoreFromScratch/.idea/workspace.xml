@@ -16,15 +16,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="506b9862-fe34-4e76-a746-588cccc0209a" name="Default Changelist" comment="ASP.NET Core Web MVC - Partial Views, Controllers Routing">
-      <change afterPath="$PROJECT_DIR$/WebAPI/Application/Services/Books/Dtos/BookDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/Application/Services/Books/IBookAccountingService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/Application/Services/Books/Impls/FakeInMemoryBookAccountingService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/Controllers/Books/BooksController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/Services_Extensions/Books/BookServicesExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFromScratch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFromScratch/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFromScratch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFromScratch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AspNetCoreFromScratch.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AspNetCoreFromScratch.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Application/Services/Books/IBookAccountingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Application/Services/Books/IBookAccountingService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Application/Services/Books/Impls/FakeInMemoryBookAccountingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Application/Services/Books/Impls/FakeInMemoryBookAccountingService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Controllers/Books/BooksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Controllers/Books/BooksController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Services_Extensions/Books/BookServicesExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Services_Extensions/Books/BookServicesExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,14 +121,14 @@
         <option value="$PROJECT_DIR$/Mvc/Startup.cs" />
         <option value="$PROJECT_DIR$/WebAPI/BookController.cs" />
         <option value="$PROJECT_DIR$/WebAPI/Application/Services/Books/BooksAccountingService.cs" />
+        <option value="$PROJECT_DIR$/WebAPI/Application/Services/Books/BookServicesExtensions.cs" />
+        <option value="$PROJECT_DIR$/WebAPI/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebAPI/Controllers/Books/BookController.cs" />
+        <option value="$PROJECT_DIR$/WebAPI/Application/Services/Books/IBookAccountingService.cs" />
         <option value="$PROJECT_DIR$/WebAPI/Application/Services/Books/Dtos/BookDto.cs" />
         <option value="$PROJECT_DIR$/WebAPI/Application/Services/Books/Impls/FakeInMemoryBookAccountingService.cs" />
-        <option value="$PROJECT_DIR$/WebAPI/Application/Services/Books/BookServicesExtensions.cs" />
-        <option value="$PROJECT_DIR$/WebAPI/Services_Extensions/Books/BookServicesExtensions.cs" />
-        <option value="$PROJECT_DIR$/WebAPI/Startup.cs" />
-        <option value="$PROJECT_DIR$/WebAPI/Application/Services/Books/IBookAccountingService.cs" />
-        <option value="$PROJECT_DIR$/WebAPI/Controllers/Books/BookController.cs" />
         <option value="$PROJECT_DIR$/WebAPI/Controllers/Books/BooksController.cs" />
+        <option value="$PROJECT_DIR$/WebAPI/Services_Extensions/Books/BookServicesExtensions.cs" />
       </list>
     </option>
   </component>
@@ -283,7 +285,8 @@
       <workItem from="1605262305167" duration="6620000" />
       <workItem from="1605625528310" duration="6267000" />
       <workItem from="1605717715958" duration="625000" />
-      <workItem from="1605797916995" duration="5502000" />
+      <workItem from="1605797916995" duration="6320000" />
+      <workItem from="1605890696754" duration="2127000" />
     </task>
     <task id="LOCAL-00001" summary="ASP.NET Core 3 fundamentals studying">
       <created>1605252393260</created>
@@ -299,7 +302,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605717904386</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ASP.NET Core Web API - Books">
+      <created>1605805935359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605805935359</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ASP.NET Core Web API - Books (Updated)">
+      <created>1605805969869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605805969869</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +340,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="ASP.NET Core 3 fundamentals studying" />
     <MESSAGE value="ASP.NET Core Web MVC - Partial Views, Controllers Routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="ASP.NET Core Web MVC - Partial Views, Controllers Routing" />
+    <MESSAGE value="ASP.NET Core Web API - Books" />
+    <MESSAGE value="ASP.NET Core Web API - Books (Updated)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ASP.NET Core Web API - Books (Updated)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="332" y="49" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605159878159">
@@ -338,22 +357,22 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="490" y="141" width="447" height="520" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1605252267597" />
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1605805718619">
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1605806577344">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1605805718619" />
-    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1605805718619">
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1605806577344" />
+    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1605806577344">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1605805718619" />
-    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1605805718618">
+    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1605806577344" />
+    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1605806577343">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1605805718618" />
-    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1605805718619">
+    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1605806577343" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1605806577344">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1605805718619" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1605806577344" />
     <state width="1248" height="242" key="GridCell.Tab.1.bottom" timestamp="1605258239767">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -422,14 +441,14 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="314" y="132" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/72.27.1294.741@72.27.1294.741" timestamp="1605800843784" />
-    <state x="424" y="79" width="579" height="643" key="RiderGenerateDialog" timestamp="1605802822263">
+    <state x="424" y="79" width="579" height="643" key="RiderGenerateDialog" timestamp="1605891530355">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="424" y="79" width="579" height="643" key="RiderGenerateDialog/72.27.1294.741@72.27.1294.741" timestamp="1605802822263" />
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605717916582">
+    <state x="424" y="79" width="579" height="643" key="RiderGenerateDialog/72.27.1294.741@72.27.1294.741" timestamp="1605891530355" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605805979959">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1605717916582" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1605805979959" />
     <state x="613" y="259" width="549" height="283" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605159809202">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

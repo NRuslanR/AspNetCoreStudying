@@ -9,8 +9,9 @@ namespace WebAPI.Services_Extensions.Books
     {
         public static IServiceCollection AddBookServices(this IServiceCollection services)
         {
-            services.AddScoped<IBookAccountingService, FakeInMemoryBookAccountingService>();
-
+            //services.AddScoped<IBookAccountingService, FakeInMemoryBookAccountingService>();
+            services.AddSingleton<IBookAccountingService, FakeInMemoryBookAccountingService>();
+            
             return services;
         }
     }
