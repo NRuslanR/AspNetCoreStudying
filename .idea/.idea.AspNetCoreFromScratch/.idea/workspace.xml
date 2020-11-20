@@ -17,16 +17,7 @@
   <component name="ChangeListManager">
     <list default="true" id="506b9862-fe34-4e76-a746-588cccc0209a" name="Default Changelist" comment="ASP.NET Core Web MVC - Partial Views, Controllers Routing">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFromScratch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFromScratch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/Application/Services/Books/IBookAccountingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Application/Services/Books/IBookAccountingService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/Application/Services/Books/Impls/FakeInMemoryBookAccountingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Application/Services/Books/Impls/FakeInMemoryBookAccountingService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/Controllers/Books/BooksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Controllers/Books/BooksController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/Services_Extensions/Books/BookServicesExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Services_Extensions/Books/BookServicesExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,8 +118,8 @@
         <option value="$PROJECT_DIR$/WebAPI/Application/Services/Books/IBookAccountingService.cs" />
         <option value="$PROJECT_DIR$/WebAPI/Application/Services/Books/Dtos/BookDto.cs" />
         <option value="$PROJECT_DIR$/WebAPI/Application/Services/Books/Impls/FakeInMemoryBookAccountingService.cs" />
-        <option value="$PROJECT_DIR$/WebAPI/Controllers/Books/BooksController.cs" />
         <option value="$PROJECT_DIR$/WebAPI/Services_Extensions/Books/BookServicesExtensions.cs" />
+        <option value="$PROJECT_DIR$/WebAPI/Controllers/Books/BooksController.cs" />
       </list>
     </option>
   </component>
@@ -286,7 +277,7 @@
       <workItem from="1605625528310" duration="6267000" />
       <workItem from="1605717715958" duration="625000" />
       <workItem from="1605797916995" duration="6320000" />
-      <workItem from="1605890696754" duration="2127000" />
+      <workItem from="1605890696754" duration="3880000" />
     </task>
     <task id="LOCAL-00001" summary="ASP.NET Core 3 fundamentals studying">
       <created>1605252393260</created>
@@ -316,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605805969869</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ASP.NET Core WebAPI RESTful-Controller implementation finished">
+      <created>1605893049713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605893049713</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +340,8 @@
     <MESSAGE value="ASP.NET Core Web MVC - Partial Views, Controllers Routing" />
     <MESSAGE value="ASP.NET Core Web API - Books" />
     <MESSAGE value="ASP.NET Core Web API - Books (Updated)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ASP.NET Core Web API - Books (Updated)" />
+    <MESSAGE value="ASP.NET Core WebAPI RESTful-Controller implementation finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="ASP.NET Core WebAPI RESTful-Controller implementation finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="332" y="49" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605159878159">
@@ -357,22 +356,22 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="490" y="141" width="447" height="520" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1605252267597" />
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1605806577344">
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1605894203039">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1605806577344" />
-    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1605806577344">
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1605894203039" />
+    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1605894203038">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1605806577344" />
-    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1605806577343">
+    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1605894203038" />
+    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1605894203038">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1605806577343" />
-    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1605806577344">
+    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1605894203038" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1605894203038">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1605806577344" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1605894203038" />
     <state width="1248" height="242" key="GridCell.Tab.1.bottom" timestamp="1605258239767">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -445,10 +444,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="424" y="79" width="579" height="643" key="RiderGenerateDialog/72.27.1294.741@72.27.1294.741" timestamp="1605891530355" />
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605805979959">
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605893059932">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1605805979959" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1605893059932" />
     <state x="613" y="259" width="549" height="283" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605159809202">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

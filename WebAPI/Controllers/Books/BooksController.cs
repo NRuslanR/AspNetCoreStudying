@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using WebAPI.Application.Services.Books;
@@ -57,7 +58,7 @@ namespace WebAPI
             {
                 await _bookAccountingService.UpdateBook(updatedBookDto);
 
-                return Ok();
+                return Redirect(Url.Action($"{nameof(GetBook)}", new {bookId = bookId}));
             }
 
             catch (BookNotFoundException ex)
