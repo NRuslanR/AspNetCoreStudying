@@ -110,6 +110,9 @@ namespace AspNetCoreFromScratch
             services.AddOptions<PositionOptions>().ValidateDataAnnotations();
             services.Configure<TopItemSettings>(TopItemSettings.YEAR, Configuration.GetSection("TopItem:Year"));
             services.Configure<TopItemSettings>(TopItemSettings.MONTH, Configuration.GetSection("TopItem:Month"));
+
+            services.AddDistributedMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -208,6 +211,8 @@ namespace AspNetCoreFromScratch
                 });
             
             app.UseMiddleware<ProductsLinkMiddleware>();
+            
+            app.UseSession();
             
             app.UseEndpoints(
                 

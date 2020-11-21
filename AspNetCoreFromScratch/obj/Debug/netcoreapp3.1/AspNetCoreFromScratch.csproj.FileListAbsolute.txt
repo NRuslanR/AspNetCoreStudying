@@ -38,3 +38,4 @@
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/AspNetCoreFromScratch/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/AspNetCoreFromScratch/bin/Debug/netcoreapp3.1/Npgsql.dll
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/AspNetCoreFromScratch/obj/Debug/netcoreapp3.1/Razor/Pages/ErrorHandling/Index.cshtml.g.cs
+/home/ruslan/RiderProjects/AspNetCoreFromScratch/AspNetCoreFromScratch/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll

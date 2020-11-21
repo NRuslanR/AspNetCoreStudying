@@ -1,11 +1,15 @@
 using System;
 using System.Linq;
+using System.Text.Json;
+using AspNetCoreFromScratch.State_Mng;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Logging;
+using AspNetCoreFromScratch.State_Mng;
+using Microsoft.AspNetCore.Http.Extensions;
 
 namespace AspNetCoreFromScratch
 {
@@ -86,6 +90,62 @@ namespace AspNetCoreFromScratch
 
             foreach (var metadata in endpoint.Metadata)
                 Console.WriteLine($"Metadata: {metadata}");
+        }
+
+        public IActionResult SessionStart()
+        {
+            UserVisitedLinksProfile userProfile = new UserVisitedLinksProfile("User");
+
+            HttpContext.Session.SetUserVisitedLinksProfile(userProfile);
+            
+            return Content("User Profile Created");
+        }
+
+        public IActionResult SessionLink1()
+        {
+            return AddCurrentVisitedLinkInfo();
+        }
+
+        public IActionResult SessionLink2()
+        {
+            return AddCurrentVisitedLinkInfo();
+        }
+
+        public IActionResult SessionLink3()
+        {
+            return AddCurrentVisitedLinkInfo();
+        }
+
+        public IActionResult SessionState()
+        {
+            UserVisitedLinksProfile userProfile = HttpContext.Session.GetUserVisitedLinksProfile();
+
+            if (userProfile is null)
+                return BadRequest("User profile is not created yet");
+
+            return Content(
+                JsonSerializer.Serialize(userProfile, typeof(UserVisitedLinksProfile)));
+        }
+        
+        private IActionResult AddCurrentVisitedLinkInfo()
+        {
+            UserVisitedLinksProfile userProfile = HttpContext.Session.GetUserVisitedLinksProfile();
+
+            if (userProfile is null)
+                return BadRequest("User profile is not created yet");
+
+            VisitedLinkInfo visitedLinkInfo =
+                new VisitedLinkInfo()
+                {
+                    Url = HttpContext.Request.GetDisplayUrl(),
+                    LastVisitDateTime = DateTime.Now
+                };
+            
+            userProfile.AddOrUpdateVisitedLinkInfo(visitedLinkInfo);
+
+            HttpContext.Session.SetUserVisitedLinksProfile(userProfile);
+            
+            return Content($"{visitedLinkInfo.Url} visited at {visitedLinkInfo.LastVisitDateTime}");
         }
     }
 }

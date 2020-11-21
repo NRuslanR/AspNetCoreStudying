@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uiYw0abwdbI959USXpUwX8jNK2AoRH8WjuG1pNKD2P2If8f0UOGjUN36jrmPRkvfQybvg2hHUkk5olAtfp6H2A==",
+  "dgSpecHash": "I5LZmu7oTeb/t6vSWc4cKK0AJBb6xUvwpxKWsFMrmw4nAHavW7Ts6iIrYnjEeba12GF6dLX0DluUH18setLz+g==",
   "success": true,
   "projectFilePath": "/home/ruslan/RiderProjects/AspNetCoreFromScratch/WebAPI/WebAPI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/ruslan/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

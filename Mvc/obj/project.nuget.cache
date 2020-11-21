@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FIEOYA87KmXPTZ7F8REuoq/FM9VkzNXM+v7tKQ7MbQRnRj9JQJFSZprudIrK6kcxf+NL/yGO+uz3pE5STt/gOQ==",
+  "dgSpecHash": "cxAKFNust0lqkvgZlxSLLpWYfWvbkYu9vH/24F16dW9ZgqywzHlo+lb/9d4jVSY0899yLWBL+/8B4TSX+eNSew==",
   "success": true,
   "projectFilePath": "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/Mvc.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/ruslan/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

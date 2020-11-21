@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UNxo+RXohoF8LCmsg7MzNneyU9+/JJ6aoOR0/Z4wJe6ApxBspCo+BDu2ce5Pge2lSQU8z5T+uJsDnGoz8q3zbA==",
+  "dgSpecHash": "AYNOOa+oa6SndzXfVZ7bNDrmen0Osd2X1QM+Jo31Gg0sM74OhjddOkS0HoVzRNNF45CwBtEHaLz2Qp890Avi8w==",
   "success": true,
   "projectFilePath": "/home/ruslan/RiderProjects/AspNetCoreFromScratch/AspNetCoreFromScratch/AspNetCoreFromScratch.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/home/ruslan/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
     "/home/ruslan/.nuget/packages/microsoft.extensions.options.dataannotations/5.0.0/microsoft.extensions.options.dataannotations.5.0.0.nupkg.sha512",
     "/home/ruslan/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/home/ruslan/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/home/ruslan/.nuget/packages/npgsql/5.0.0-preview1/npgsql.5.0.0-preview1.nupkg.sha512",
     "/home/ruslan/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/home/ruslan/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
