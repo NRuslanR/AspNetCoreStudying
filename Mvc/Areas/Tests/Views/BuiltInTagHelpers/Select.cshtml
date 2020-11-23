@@ -1,0 +1,13 @@
+@model Mvc.Areas.Tests.Model.BuiltInTagHelpers.SelectTechStackViewModel
+
+@{
+    ViewData["Title"] = "Built-In Tag Helpers - Select";
+}
+
+<h1>@Model.Title</h1>
+<form asp-area="Tests" asp-controller="BuiltInTagHelpers" asp-action="Select" method="post">
+    <select asp-for="CurrentTechStack" asp-items="Model.TechStackItems"></select>    
+    <br>
+    <button asp-area="Tests" asp-controller="BuiltInTagHelpers" asp-action="Select">Save List</button>
+</form>
+

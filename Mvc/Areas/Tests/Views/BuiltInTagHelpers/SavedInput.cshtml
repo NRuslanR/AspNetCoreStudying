@@ -1,0 +1,41 @@
+@model Mvc.Areas.Tests.Model.BuiltInTagHelpers.InputTodoItemsViewModel
+
+@{
+    ViewData["Title"] = "Built-In Tag Helpers - Saved Input";
+}
+
+@section StylesSection
+{
+    <style>
+        table 
+        {
+            border-collapse: collapse;
+        }
+        
+        th, td
+        {
+            border: 1px solid black;
+        }
+    </style>
+}
+<h1>Ваши задания:</h1>
+<table>
+    <thead>
+    <tr>
+        <th><label asp-for="TodoItems[0].Name"></label></th>
+        <th><label asp-for="TodoItems[0].IsDone"></label></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var todoItem in Model.TodoItems)
+    {
+        <tr>
+            <td>@todoItem.Name</td>
+            <td>@(todoItem.IsDone ? "Да" : "Нет")</td>
+        </tr>
+    }
+    </tbody>
+    <tfoot>
+        Кол-во заданий: @Model.TodoItems.Count
+    </tfoot>
+</table>

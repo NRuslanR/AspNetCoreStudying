@@ -1,0 +1,52 @@
+@model Mvc.Areas.Tests.Model.TagHelpers.TagHelperConditionViewModel
+
+@{
+    ViewData["title"] = "TagHelpers - Condition";
+}
+
+@section StylesSection
+{
+    <style>
+        .block
+        {
+            display: block;
+        }
+        
+        .inline-block 
+        {
+            display: inline-block;
+        }
+        
+        .half-page-width
+        {
+            width: 50%;
+        }
+        
+        .half-page-height
+        {
+            height: 50%;
+        }
+        
+        .green-border-rounded
+        {
+            border-radius: 15px;
+            border-color: lightgreen;
+        }
+        
+        .lightgreen-background
+        {
+            background-color: lightgreen;
+        }
+    </style>
+}
+
+<h2>Condition is @Model.ElementVisible:</h2>
+<div 
+    condition="@Model.ElementVisible"
+    class="block 
+           half-page-width 
+           green-border-rounded 
+           lightgreen-background"
+    >
+    <span bold>Inline Block</span>
+</div>

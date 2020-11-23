@@ -1,0 +1,27 @@
+@using System.Net.Http
+@model Mvc.Areas.Tests.Model.BuiltInTagHelpers.BuiltInTagHelpersIndexViewModel
+
+@{
+    ViewData["Title"] = "Built-In Tag Helpers - Index";
+    
+    
+}
+
+<h1>@Model.Header</h1>
+<ul>
+    @foreach (var tagHelperLink in Model.TagHelperLinks)
+    {
+        <li>
+            @if (tagHelperLink.Url.ToLower().Contains("loginform"))
+            {
+                <a href="@(tagHelperLink.Url + "?returnUrl=" + Context.Request.Path)">@tagHelperLink.Content</a>
+            }
+
+            else
+            {
+                <a href="@tagHelperLink.Url">@tagHelperLink.Content</a>
+            }
+        </li>
+    }
+</ul>
+Current Date Time: <cache>@DateTime.Now</cache>

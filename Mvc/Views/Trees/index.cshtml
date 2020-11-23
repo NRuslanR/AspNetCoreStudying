@@ -1,9 +1,0 @@
-@using Mvc.Model.Trees;
-
-@model TreesIndexViewModel;
-
-@{
-    ViewData["title"] = "Trees - Index";
-}
-
-@await Html.PartialAsync("Partials/_TreeList", Model.TreeList)

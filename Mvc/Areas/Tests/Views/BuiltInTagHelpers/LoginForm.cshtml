@@ -1,0 +1,26 @@
+@model Mvc.Areas.Tests.Model.BuiltInTagHelpers.LogInViewModel;
+
+@{
+    ViewData["title"] = "Built-In Tag Helpers - Form";
+}
+
+<form
+    asp-area="Tests"
+    asp-controller="BuiltInTagHelpers"
+    asp-action="LoginForm"
+    asp-route-returnUrl="@ViewData["ReturnUrl"]"
+    >
+    <div asp-validation-summary="All"></div>
+    <p>
+        <label asp-for="Login"></label>:&nbsp;
+        <input asp-for="Login"/><br>
+        <span asp-validation-for="Login"></span>
+    </p>
+    <p>
+        <label asp-for="Password"></label>:&nbsp;
+        <input asp-for="Password"/><br>
+        <span asp-validation-for="Password"></span>
+    </p>
+    
+    <p><button asp-area="Tests" asp-controller="BuiltInTagHelpers" asp-action="LoginForm">Войти</button></p>
+</form>

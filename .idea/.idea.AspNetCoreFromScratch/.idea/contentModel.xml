@@ -90,16 +90,74 @@
             <e p="Trees" t="Include" />
           </e>
         </e>
-        <e p="Controllers" t="Include">
-          <e p="Trees" t="Include">
-            <e p="TreesController.cs" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="Tests" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="BuiltInTagHelpersController.cs" t="Include" />
+              <e p="TagHelpersController.cs" t="Include" />
+            </e>
+            <e p="Model" t="Include">
+              <e p="BuiltInTagHelpers" t="Include">
+                <e p="BuiltInTagHelpersIndexViewModel.cs" t="Include" />
+                <e p="InputTodoItemsViewModel.cs" t="Include" />
+                <e p="LogInViewModel.cs" t="Include" />
+                <e p="SelectTechStackViewModel.cs" t="Include" />
+              </e>
+              <e p="TagHelpers" t="Include">
+                <e p="TagHelperConditionViewModel.cs" t="Include" />
+              </e>
+            </e>
+            <e p="TagHelpers" t="Include">
+              <e p="AsyncEmailTagHelper.cs" t="Include" />
+              <e p="BoldTagHelper.cs" t="Include" />
+              <e p="ConditionTagHelper.cs" t="Include" />
+              <e p="EmailTagHelper.cs" t="Include" />
+              <e p="ListTagHelper.cs" t="Include" />
+              <e p="MinifiedComboBoxTagHelper.cs" t="Include" />
+            </e>
+            <e p="Views" t="Include">
+              <e p="BuiltInTagHelpers" t="Include">
+                <e p="Index.cshtml" t="Include" />
+                <e p="Input.cshtml" t="Include" />
+                <e p="LoginForm.cshtml" t="Include" />
+                <e p="SavedInput.cshtml" t="Include" />
+                <e p="Select.cshtml" t="Include" />
+              </e>
+              <e p="TagHelpers" t="Include">
+                <e p="Bold.cshtml" t="Include" />
+                <e p="Condition.cshtml" t="Include" />
+                <e p="Email.cshtml" t="Include" />
+                <e p="List.cshtml" t="Include" />
+              </e>
+              <e p="_ViewImports.cshtml" t="Include" />
+              <e p="_ViewStart.cshtml" t="Include" />
+            </e>
           </e>
-        </e>
-        <e p="Model" t="Include">
           <e p="Trees" t="Include">
-            <e p="TreeListViewModel.cs" t="Include" />
-            <e p="TreeViewModel.cs" t="Include" />
-            <e p="TreesIndexViewModel.cs" t="Include" />
+            <e p="Controllers" t="Include">
+              <e p="HomeController.cs" t="Include" />
+            </e>
+            <e p="Model" t="Include">
+              <e p="Common" t="Include">
+                <e p="TreeListViewModel.cs" t="Include" />
+                <e p="TreeViewModel.cs" t="Include" />
+              </e>
+              <e p="Home" t="Include">
+                <e p="HomeIndexViewModel.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Views" t="Include">
+              <e p="Home" t="Include">
+                <e p="index.cshtml" t="Include" />
+              </e>
+              <e p="Shared" t="Include">
+                <e p="Partials" t="Include">
+                  <e p="_TreeList.cshtml" t="Include" />
+                </e>
+              </e>
+              <e p="_ViewImports.cshtml" t="Include" />
+              <e p="_ViewStart.cshtml" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Mvc.csproj" t="IncludeRecursive" />
@@ -112,14 +170,6 @@
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
           </e>
-          <e p="Trees" t="Include">
-            <e p="Partials" t="Include">
-              <e p="_TreeList.cshtml" t="Include" />
-            </e>
-            <e p="_ViewImports.cshtml" t="Include" />
-            <e p="index.cshtml" t="Include" />
-          </e>
-          <e p="_ViewStart.cshtml" t="Include" />
         </e>
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />

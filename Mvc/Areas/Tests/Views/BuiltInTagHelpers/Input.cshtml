@@ -1,0 +1,42 @@
+@model Mvc.Areas.Tests.Model.BuiltInTagHelpers.InputTodoItemsViewModel
+
+@{
+    ViewData["Title"] = "Built-In Tag Helpers - Input";
+}
+
+@section StylesSection
+{
+    <style>
+        .cell
+            {
+                border: 2px solid #bfbfbf;
+                background-color: #fff9e6;
+                padding: 20px;
+                margin: 20px;
+                text-align: center;
+                display: inline-block;
+            }
+    </style>
+}
+
+<form asp-area="Tests"
+      asp-controller="BuiltInTagHelpers"
+      asp-action="Input"
+      method="post"
+      >
+    @for (int i = 0; i < Model.TodoItems.Count; ++i)
+    {
+        <div class="cell">
+            <p>
+                <label asp-for="TodoItems[i].Name"></label>:<br>
+                <textarea asp-for="TodoItems[i].Name"></textarea>
+            </p>
+            <p>
+                <input asp-for="TodoItems[i].IsDone"/>&nbsp;
+                <label asp-for="TodoItems[i].IsDone"></label> ?
+            </p>
+        </div>
+        <br>
+    }
+    <button asp-area="Tests" asp-controller="BuiltInTagHelpers" asp-action="Input">Сохранить</button>
+</form>

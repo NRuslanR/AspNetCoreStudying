@@ -1,0 +1,14 @@
+@{
+    ViewData["title"] = "TagHelpers - List";
+
+    IEnumerable<string> lines = new string[]
+    {
+        "Item 1",
+        "Item 2",
+        "Item 3"
+    };
+    
+}
+
+<h2>Items:</h2>
+<list data="lines"/>

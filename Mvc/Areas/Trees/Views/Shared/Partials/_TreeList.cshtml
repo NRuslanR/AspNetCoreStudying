@@ -1,0 +1,25 @@
+@using Mvc.Areas.Trees.Model.Common
+
+@model TreeListViewModel;
+
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Growth Location</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    @foreach (var tree in Model)
+    {
+        <tr>
+            <td>@tree.Name</td>
+            <td>@tree.GrowthLocation</td>
+        </tr>
+    }
+    </tbody>
+    <tfoot>
+    Count: @Model.Count
+    </tfoot>
+</table>

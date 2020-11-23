@@ -43,7 +43,7 @@ namespace Mvc
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    "{Controller=Trees}/{Action=Index}/{treeId?}"
+                    "{area=Trees}/{controller=Home}/{action=Index}/{treeId?}"
                 );
             });
         }
