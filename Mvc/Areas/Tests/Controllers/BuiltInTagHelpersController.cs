@@ -5,6 +5,7 @@ using Mvc.Areas.Tests.Model.BuiltInTagHelpers;
 
 namespace Mvc.Areas.Tests.Controllers
 {
+    [Area("Tests")]
     public class BuiltInTagHelpersController : Controller
     {
         public IActionResult Index()

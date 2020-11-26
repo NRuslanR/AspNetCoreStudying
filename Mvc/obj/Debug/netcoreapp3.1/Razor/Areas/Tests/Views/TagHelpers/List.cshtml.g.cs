@@ -13,14 +13,14 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/Areas/Tests/Views/_ViewImports.cshtml"
+#line 1 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/_ViewImports.cshtml"
 using Mvc;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8affd49ba217520d20a16f729a23cabf75c943bf", @"/Areas/Tests/Views/TagHelpers/List.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d1b723f423f1a97d1a961658293c2df24825f25", @"/Areas/Tests/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d1b723f423f1a97d1a961658293c2df24825f25", @"/_ViewImports.cshtml")]
     public class Areas_Tests_Views_TagHelpers_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -64,7 +64,7 @@ using Mvc;
 #line hidden
 #nullable disable
             WriteLiteral("\n<h2>Items:</h2>\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("list", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8affd49ba217520d20a16f729a23cabf75c943bf3251", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("list", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8affd49ba217520d20a16f729a23cabf75c943bf3215", async() => {
             }
             );
             __Mvc_Areas_Tests_TagHelpers_ListTagHelper = CreateTagHelper<global::Mvc.Areas.Tests.TagHelpers.ListTagHelper>();

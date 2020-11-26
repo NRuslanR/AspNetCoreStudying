@@ -13,7 +13,7 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/Areas/Tests/Views/_ViewImports.cshtml"
+#line 1 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/_ViewImports.cshtml"
 using Mvc;
 
 #line default
@@ -27,7 +27,7 @@ using System.Net.Http;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"78f7623fa1e7574e73fc17e42ae2bd9522c50d61", @"/Areas/Tests/Views/BuiltInTagHelpers/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d1b723f423f1a97d1a961658293c2df24825f25", @"/Areas/Tests/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d1b723f423f1a97d1a961658293c2df24825f25", @"/_ViewImports.cshtml")]
     public class Areas_Tests_Views_BuiltInTagHelpers_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Mvc.Areas.Tests.Model.BuiltInTagHelpers.BuiltInTagHelpersIndexViewModel>
     {
         #line hidden
@@ -155,7 +155,7 @@ WriteAttributeValue("", 545, tagHelperLink.Url, 545, 18, false);
 #line hidden
 #nullable disable
             WriteLiteral("</ul>\nCurrent Date Time: ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("cache", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "78f7623fa1e7574e73fc17e42ae2bd9522c50d616485", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("cache", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "78f7623fa1e7574e73fc17e42ae2bd9522c50d616449", async() => {
 #nullable restore
 #line 27 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/Areas/Tests/Views/BuiltInTagHelpers/Index.cshtml"
                      Write(DateTime.Now);

@@ -32,11 +32,7 @@
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Trees/Views/Home/index.cshtml.g.cs
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Trees/Views/Shared/Partials/_TreeList.cshtml.g.cs
-/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Trees/Views/_ViewImports.cshtml.g.cs
-/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Trees/Views/_ViewStart.cshtml.g.cs
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/TagHelpers/email.cshtml.g.cs
-/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/_ViewImports.cshtml.g.cs
-/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/_ViewStart.cshtml.g.cs
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/TagHelpers/Bold.cshtml.g.cs
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/TagHelpers/List.cshtml.g.cs
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/TagHelpers/Condition.cshtml.g.cs
@@ -45,3 +41,6 @@
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/BuiltInTagHelpers/Input.cshtml.g.cs
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/BuiltInTagHelpers/SavedInput.cshtml.g.cs
 /home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/BuiltInTagHelpers/Select.cshtml.g.cs
+/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/AppParts/Index.cshtml.g.cs
+/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/_ViewImports.cshtml.g.cs
+/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/obj/Debug/netcoreapp3.1/Razor/_ViewStart.cshtml.g.cs

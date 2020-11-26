@@ -5,8 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.ApplicationModels;
+using Microsoft.AspNetCore.Mvc.ApplicationParts;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Mvc.Areas.Tests.Controllers;
+using Mvc.Areas.Tests.Filters;
 
 namespace Mvc
 {
@@ -16,7 +21,17 @@ namespace Mvc
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services
+                .AddControllersWithViews(opts =>
+                {
+                    opts.Filters.Add(new GlobalActionFilter());
+                })
+                .ConfigureApplicationPartManager(appPartMngr =>
+                    {
+                        appPartMngr.ApplicationParts.Add(new AssemblyPart(typeof(TagHelpersController).Assembly));
+                    }
+                );
+            services.AddScoped<ActionCallInfoFilter>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,7 +58,7 @@ namespace Mvc
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    "{area=Trees}/{controller=Home}/{action=Index}/{treeId?}"
+                    "{area:exists=Trees}/{controller=Home}/{action=Index}/{treeId?}"
                 );
             });
         }

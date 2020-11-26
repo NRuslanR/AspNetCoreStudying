@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mvc.Areas.Trees.Controllers
 {
+    [Area("Trees")]
     public class HomeController : Controller
     {
         // GET

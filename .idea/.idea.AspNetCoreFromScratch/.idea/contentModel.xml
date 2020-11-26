@@ -93,10 +93,23 @@
         <e p="Areas" t="Include">
           <e p="Tests" t="Include">
             <e p="Controllers" t="Include">
+              <e p="AppPartsController.cs" t="Include" />
               <e p="BuiltInTagHelpersController.cs" t="Include" />
+              <e p="FiltersController.cs" t="Include" />
               <e p="TagHelpersController.cs" t="Include" />
             </e>
+            <e p="Filters" t="Include">
+              <e p="ActionCallInfoFilter.cs" t="Include" />
+              <e p="AddHeader.cs" t="Include" />
+              <e p="GlobalActionFilterAttribute.cs" t="Include" />
+              <e p="ModelStateActionFilterAttribute.cs" t="Include" />
+              <e p="ShortCircuitingResourceFilterAttribute.cs" t="Include" />
+              <e p="SimpleTypeFilterExampleAttribute.cs" t="Include" />
+            </e>
             <e p="Model" t="Include">
+              <e p="AddParts" t="Include">
+                <e p="AddPartsIndexVIewModel.cs" t="Include" />
+              </e>
               <e p="BuiltInTagHelpers" t="Include">
                 <e p="BuiltInTagHelpersIndexViewModel.cs" t="Include" />
                 <e p="InputTodoItemsViewModel.cs" t="Include" />
@@ -116,6 +129,9 @@
               <e p="MinifiedComboBoxTagHelper.cs" t="Include" />
             </e>
             <e p="Views" t="Include">
+              <e p="AppParts" t="Include">
+                <e p="Index.cshtml" t="Include" />
+              </e>
               <e p="BuiltInTagHelpers" t="Include">
                 <e p="Index.cshtml" t="Include" />
                 <e p="Input.cshtml" t="Include" />
@@ -129,8 +145,6 @@
                 <e p="Email.cshtml" t="Include" />
                 <e p="List.cshtml" t="Include" />
               </e>
-              <e p="_ViewImports.cshtml" t="Include" />
-              <e p="_ViewStart.cshtml" t="Include" />
             </e>
           </e>
           <e p="Trees" t="Include">
@@ -155,8 +169,6 @@
                   <e p="_TreeList.cshtml" t="Include" />
                 </e>
               </e>
-              <e p="_ViewImports.cshtml" t="Include" />
-              <e p="_ViewStart.cshtml" t="Include" />
             </e>
           </e>
         </e>
@@ -171,6 +183,8 @@
             <e p="_Layout.cshtml" t="Include" />
           </e>
         </e>
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="_ViewStart.cshtml" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />

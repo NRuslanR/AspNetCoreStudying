@@ -1,0 +1,12 @@
+@model Mvc.Areas.Tests.Model.AddParts.AddPartsIndexVIewModel
+
+@{
+    ViewData["Title"] = "Application Parts";
+}
+
+<h1>Controllers:</h1>
+<list data="Model.Controllers.Select(t => t.Name)"/>
+<h1>Tag Helpers:</h1>
+<list data="Model.TagHelpers.Select(t => t.Name)"/>
+<h1>View Components:</h1>
+<list data="Model.ViewComponents.Select(t => t.Name)"/>

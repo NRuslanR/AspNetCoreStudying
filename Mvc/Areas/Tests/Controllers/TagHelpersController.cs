@@ -3,6 +3,7 @@ using Mvc.Areas.Tests.Model.TagHelpers;
 
 namespace Mvc.Areas.Tests.Controllers
 {
+    [Area("Tests")]
     public class TagHelpersController : Controller
     {
         // GET
