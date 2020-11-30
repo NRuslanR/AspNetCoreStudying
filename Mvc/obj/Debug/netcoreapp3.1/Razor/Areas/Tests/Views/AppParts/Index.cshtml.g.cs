@@ -19,8 +19,22 @@ using Mvc;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/_ViewImports.cshtml"
+using Mvc.Areas.Files.Model.Uploads;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/_ViewImports.cshtml"
+using Mvc.Application.Services.ToDo.Accounting.Dtos;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9d32e190e61b46c03c0bc7792e77ba59b124de08", @"/Areas/Tests/Views/AppParts/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d1b723f423f1a97d1a961658293c2df24825f25", @"/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"31825da461a13a77d4fd52f616967388bbc7c3cf", @"/_ViewImports.cshtml")]
     public class Areas_Tests_Views_AppParts_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Mvc.Areas.Tests.Model.AddParts.AddPartsIndexVIewModel>
     {
         #line hidden
@@ -57,7 +71,7 @@ using Mvc;
 #line hidden
 #nullable disable
             WriteLiteral("\n<h1>Controllers:</h1>\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("list", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9d32e190e61b46c03c0bc7792e77ba59b124de083176", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("list", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9d32e190e61b46c03c0bc7792e77ba59b124de083560", async() => {
             }
             );
             __Mvc_Areas_Tests_TagHelpers_ListTagHelper = CreateTagHelper<global::Mvc.Areas.Tests.TagHelpers.ListTagHelper>();
@@ -78,7 +92,7 @@ __Mvc_Areas_Tests_TagHelpers_ListTagHelper.Data = Model.Controllers.Select(t => 
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n<h1>Tag Helpers:</h1>\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("list", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9d32e190e61b46c03c0bc7792e77ba59b124de084520", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("list", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9d32e190e61b46c03c0bc7792e77ba59b124de084904", async() => {
             }
             );
             __Mvc_Areas_Tests_TagHelpers_ListTagHelper = CreateTagHelper<global::Mvc.Areas.Tests.TagHelpers.ListTagHelper>();
@@ -99,7 +113,7 @@ __Mvc_Areas_Tests_TagHelpers_ListTagHelper.Data = Model.TagHelpers.Select(t => t
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n<h1>View Components:</h1>\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("list", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9d32e190e61b46c03c0bc7792e77ba59b124de085868", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("list", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9d32e190e61b46c03c0bc7792e77ba59b124de086252", async() => {
             }
             );
             __Mvc_Areas_Tests_TagHelpers_ListTagHelper = CreateTagHelper<global::Mvc.Areas.Tests.TagHelpers.ListTagHelper>();

@@ -1,0 +1,21 @@
+@model MultipleFilesUpload
+
+@{
+    ViewData["Title"] = "Multiple files upload";
+}
+
+<h1>Multiple files upload:</h1>
+<form
+    enctype="multipart/form-data"
+    method="post"
+    asp-area="Files"
+    asp-controller="Uploads"
+    asp-action="Multiple">
+    
+    <label asp-for="FilesToUpload"></label>&nbsp;
+    <input asp-for="FilesToUpload" type="file" multiple/><br>
+    <span asp-validation-for="FilesToUpload"></span>
+    <p>
+        <input type="submit" asp-area="Files" asp-controller="Uploads" asp-action="Multiple" value="Send Files"/>
+    </p>
+</form>

@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Mvc.Application.Services.ToDo.Accounting;
+using Mvc.Application.Services.ToDo.Accounting.Impls;
 using Mvc.Areas.Tests.Controllers;
 using Mvc.Areas.Tests.Filters;
 
@@ -26,12 +28,15 @@ namespace Mvc
                 {
                     opts.Filters.Add(new GlobalActionFilter());
                 })
+                .AddRazorRuntimeCompilation()
                 .ConfigureApplicationPartManager(appPartMngr =>
                     {
                         appPartMngr.ApplicationParts.Add(new AssemblyPart(typeof(TagHelpersController).Assembly));
                     }
                 );
             services.AddScoped<ActionCallInfoFilter>();
+            services.AddScoped<IToDoItemAccountingService, FakeInMemoryTodoItemAccountingService>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -16,39 +16,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="506b9862-fe34-4e76-a746-588cccc0209a" name="Default Changelist" comment="ASP.NET Core Web MVC - Partial Views, Controllers Routing">
-      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Tests/Controllers/AppPartsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Tests/Controllers/FiltersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/ActionCallInfoFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/AddHeader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/GlobalActionFilterAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/ModelStateActionFilterAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/ShortCircuitingResourceFilterAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/SimpleTypeFilterExampleAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Tests/Model/AddParts/AddPartsIndexVIewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Tests/Views/AppParts/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Application/Services/ToDo/Accounting/Dtos/ToDoItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Application/Services/ToDo/Accounting/IToDoItemAccountingService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Application/Services/ToDo/Accounting/Impls/FakeInMemoryTodoItemAccountingService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Files/Controllers/UploadsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Files/Model/Uploads/FileUpload.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Files/Model/Uploads/MultipleFilesUpload.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Files/Model/Uploads/MultipleFilesUploadResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Files/Views/Uploads/Multiple.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Files/Views/Uploads/MultipleResult.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Areas/Files/Views/Uploads/Single.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Areas/ToDo/Controllers/PriorityItemsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Areas/ToDo/ViewComponents/PriorityItems/PriorityItems.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Areas/ToDo/Views/PriorityItems/Components/PriorityItems/Default.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Areas/ToDo/Views/PriorityItems/Components/PriorityItems/PVC.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mvc/Areas/ToDo/Views/PriorityItems/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFromScratch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFromScratch/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFromScratch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCoreFromScratch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/Areas/Tests/Controllers/BuiltInTagHelpersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/Areas/Tests/Controllers/BuiltInTagHelpersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/Areas/Tests/Controllers/TagHelpersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/Areas/Tests/Controllers/TagHelpersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/Areas/Tests/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/Areas/Tests/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/_ViewStart.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/Areas/Trees/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/Areas/Trees/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/Areas/Trees/Views/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/Areas/Trees/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AspNetCoreFromScratch/obj/Debug/netcoreapp3.1/AspNetCoreFromScratch.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AspNetCoreFromScratch/obj/Debug/netcoreapp3.1/AspNetCoreFromScratch.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AspNetCoreFromScratch/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AspNetCoreFromScratch/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/Mvc.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/Mvc.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/_ViewImports.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/bin/Debug/netcoreapp3.1/Mvc.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/bin/Debug/netcoreapp3.1/Mvc.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/bin/Debug/netcoreapp3.1/Mvc.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/bin/Debug/netcoreapp3.1/Mvc.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/bin/Debug/netcoreapp3.1/Mvc.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/bin/Debug/netcoreapp3.1/Mvc.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/bin/Debug/netcoreapp3.1/Mvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/bin/Debug/netcoreapp3.1/Mvc.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/bin/Debug/netcoreapp3.1/Mvc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/bin/Debug/netcoreapp3.1/Mvc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.RazorAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.RazorAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.RazorAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.TagHelpers.output.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.TagHelpers.output.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Mvc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/AppParts/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/AppParts/Index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/BuiltInTagHelpers/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/BuiltInTagHelpers/Index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/BuiltInTagHelpers/Input.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/BuiltInTagHelpers/Input.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/BuiltInTagHelpers/LoginForm.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/BuiltInTagHelpers/LoginForm.cshtml.g.cs" afterDir="false" />
@@ -58,13 +65,20 @@
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/TagHelpers/Condition.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/TagHelpers/Condition.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/TagHelpers/Email.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/TagHelpers/Email.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/TagHelpers/List.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/TagHelpers/List.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/_ViewImports.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Tests/Views/_ViewStart.cshtml.g.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Trees/Views/Home/index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Trees/Views/Home/index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Trees/Views/Shared/Partials/_TreeList.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Trees/Views/Shared/Partials/_TreeList.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Trees/Views/_ViewImports.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Areas/Trees/Views/_ViewStart.cshtml.g.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/_ViewImports.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Debug/netcoreapp3.1/Razor/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/Mvc.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Mvc.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/Mvc.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Mvc.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/Mvc.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/Mvc.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mvc/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Mvc/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,26 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Mvc/Areas/Trees/Views/Shared/_ViewStart.cshtml" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Pages/TagHelpers/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Views/_ViewStart.cshtml" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Views/TagHelpers/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Views/_ViewImports.cshtml" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/TagHelpers/EmailTagHelper.cs" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/TagHelpers/AsyncEmailTagHelper.cs" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Views/TagHelpers/email.cshtml" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/TagHelpers/BoldTagHelper.cs" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Views/TagHelpers/Bold.cshtml" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/TagHelpers/ListTagHelper.cs" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Views/TagHelpers/List.cshtml" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/TagHelpers/ConditionTagHelper.cs" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Model/TagHelpers/TagHelperConditionViewModel.cs" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Views/TagHelpers/Condition.cshtml" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/TagHelpers/MinifiedComboBoxTagHelper.cs" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Pages/BuildInTagHelpers/Form.cshtml" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Model/BuiltInTagHelpers/LoginViewModel.cs" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Views/BuildInTagHelpers/Form.cshtml" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Model/BuiltInTagHelpers/LogInViewModel.cs" />
         <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Views/BuildInTagHelpers/LoginForm.cshtml" />
         <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Model/BuiltInTagHelpers/BuiltInTagHelpersIndexViewModel.cs" />
         <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Controllers/BuildInTagHelpers.cs" />
@@ -167,12 +161,32 @@
         <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/AddHeader.cs" />
         <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/GlobalActionFilter.cs" />
         <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/GlobalActionFilterAttribute.cs" />
-        <option value="$PROJECT_DIR$/Mvc/Startup.cs" />
         <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/ShortCircuitingResourceFilterAttribute.cs" />
-        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/SimpleTypeFilterExampleAttribute.cs" />
         <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/ActionCallInfoFilter.cs" />
         <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/ModelStateActionFilterAttribute.cs" />
         <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Controllers/FiltersController.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/Tests/Filters/SimpleTypeFilterExampleAttribute.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/ToDo/Views/PriorityItems/Components/PriorityItems/Default.cshtml" />
+        <option value="$PROJECT_DIR$/Mvc/Application/Services/ToDo/Accounting/IToDoItemAccountingService.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Application/Services/ToDo/Accounting/Impls/FakeInMemoryTodoItemAccountingService.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/ToDo/Pages/Components/PriorityItems/Default.cshtml" />
+        <option value="$PROJECT_DIR$/Mvc/Application/Services/ToDo/Accounting/Dtos/ToDoItem.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/ToDo/Pages/PriorityItems/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/ToDo/Controllers/PriorityItemsController.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/ToDo/Views/PriorityItems/Components/PriorityItems/PVC.cshtml" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/ToDo/ViewComponents/PriorityItems/PriorityItemsViewComponent.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/ToDo/ViewComponents/PriorityItems/PriorityItems.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/ToDo/Views/PriorityItems/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Mvc/Startup.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/Files/Pages/Uploads/Single.cshtml" />
+        <option value="$PROJECT_DIR$/Mvc/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/Files/Model/Uploads/FileUpload.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/Files/Views/Uploads/Single.cshtml" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/Files/Model/Uploads/MultipleFilesUpload.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/Files/Views/Uploads/Multiple.cshtml" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/Files/Model/Uploads/MultipleFilesUploadResult.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/Files/Controllers/UploadsController.cs" />
+        <option value="$PROJECT_DIR$/Mvc/Areas/Files/Views/Uploads/MultipleResult.cshtml" />
       </list>
     </option>
   </component>
@@ -339,7 +353,10 @@
       <workItem from="1606146572129" duration="3995000" />
       <workItem from="1606234355011" duration="3310000" />
       <workItem from="1606323536111" duration="1255000" />
-      <workItem from="1606405307603" duration="3140000" />
+      <workItem from="1606405307603" duration="4333000" />
+      <workItem from="1606493066477" duration="7382000" />
+      <workItem from="1606626905847" duration="804000" />
+      <workItem from="1606754966232" duration="3490000" />
     </task>
     <task id="LOCAL-00001" summary="ASP.NET Core 3 fundamentals studying">
       <created>1605252393260</created>
@@ -397,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606148534859</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ASP.NET Core - Filters">
+      <created>1606411803197</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606411803197</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,117 +451,122 @@
     <MESSAGE value="ASP.NET Core WebAPI Redirect + Url using for URL Generation" />
     <MESSAGE value="ASP.NET Core - Session Management (HttpContext.Session)" />
     <MESSAGE value="ASP.NET Core - Built-In Tag Helpers Study Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="ASP.NET Core - Built-In Tag Helpers Study Finished" />
+    <MESSAGE value="ASP.NET Core - Filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="ASP.NET Core - Filters" />
   </component>
   <component name="WindowStateProjectService">
     <state x="332" y="49" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605159878159">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="332" y="49" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1605159878159" />
-    <state width="515" height="477" key="DebuggerActiveHint" timestamp="1605960572827">
+    <state width="515" height="477" key="DebuggerActiveHint" timestamp="1606756494212">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="515" height="477" key="DebuggerActiveHint/72.27.1294.741@72.27.1294.741" timestamp="1605960572827" />
+    <state width="515" height="477" key="DebuggerActiveHint/72.27.1294.741@72.27.1294.741" timestamp="1606756494212" />
     <state x="490" y="141" width="447" height="520" key="FileChooserDialogImpl" timestamp="1605252267597">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="490" y="141" width="447" height="520" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1605252267597" />
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1606408452589">
+    <state width="1248" height="242" key="GridCell.Tab.0.bottom" timestamp="1606756703119">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1606408452589" />
-    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1606408452588">
+    <state width="1248" height="242" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1606756703119" />
+    <state width="1248" height="242" key="GridCell.Tab.0.center" timestamp="1606756703118">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1606408452588" />
-    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1606408452588">
+    <state width="1248" height="242" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1606756703118" />
+    <state width="1248" height="242" key="GridCell.Tab.0.left" timestamp="1606756703117">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1606408452588" />
-    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1606408452589">
+    <state width="1248" height="242" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1606756703117" />
+    <state width="1248" height="242" key="GridCell.Tab.0.right" timestamp="1606756703119">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1606408452589" />
-    <state width="1248" height="242" key="GridCell.Tab.1.bottom" timestamp="1606033274803">
+    <state width="1248" height="242" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1606756703119" />
+    <state width="1248" height="242" key="GridCell.Tab.1.bottom" timestamp="1606756703121">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1606033274803" />
-    <state width="1248" height="242" key="GridCell.Tab.1.center" timestamp="1606033274803">
+    <state width="1248" height="242" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1606756703121" />
+    <state width="1248" height="242" key="GridCell.Tab.1.center" timestamp="1606756703120">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1606033274803" />
-    <state width="1248" height="242" key="GridCell.Tab.1.left" timestamp="1606033274803">
+    <state width="1248" height="242" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1606756703120" />
+    <state width="1248" height="242" key="GridCell.Tab.1.left" timestamp="1606756703120">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1606033274803" />
-    <state width="1248" height="242" key="GridCell.Tab.1.right" timestamp="1606033274803">
+    <state width="1248" height="242" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1606756703120" />
+    <state width="1248" height="242" key="GridCell.Tab.1.right" timestamp="1606756703121">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1606033274803" />
-    <state width="1248" height="242" key="GridCell.Tab.2.bottom" timestamp="1606033274804">
+    <state width="1248" height="242" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1606756703121" />
+    <state width="1248" height="242" key="GridCell.Tab.2.bottom" timestamp="1606756703122">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.2.bottom/72.27.1294.741@72.27.1294.741" timestamp="1606033274804" />
-    <state width="1248" height="242" key="GridCell.Tab.2.center" timestamp="1606033274804">
+    <state width="1248" height="242" key="GridCell.Tab.2.bottom/72.27.1294.741@72.27.1294.741" timestamp="1606756703122" />
+    <state width="1248" height="242" key="GridCell.Tab.2.center" timestamp="1606756703121">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.2.center/72.27.1294.741@72.27.1294.741" timestamp="1606033274804" />
-    <state width="1248" height="242" key="GridCell.Tab.2.left" timestamp="1606033274804">
+    <state width="1248" height="242" key="GridCell.Tab.2.center/72.27.1294.741@72.27.1294.741" timestamp="1606756703121" />
+    <state width="1248" height="242" key="GridCell.Tab.2.left" timestamp="1606756703121">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.2.left/72.27.1294.741@72.27.1294.741" timestamp="1606033274804" />
-    <state width="1248" height="242" key="GridCell.Tab.2.right" timestamp="1606033274804">
+    <state width="1248" height="242" key="GridCell.Tab.2.left/72.27.1294.741@72.27.1294.741" timestamp="1606756703121" />
+    <state width="1248" height="242" key="GridCell.Tab.2.right" timestamp="1606756703122">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.2.right/72.27.1294.741@72.27.1294.741" timestamp="1606033274804" />
-    <state width="1248" height="242" key="GridCell.Tab.3.bottom" timestamp="1606033274805">
+    <state width="1248" height="242" key="GridCell.Tab.2.right/72.27.1294.741@72.27.1294.741" timestamp="1606756703122" />
+    <state width="1248" height="242" key="GridCell.Tab.3.bottom" timestamp="1606756703123">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.3.bottom/72.27.1294.741@72.27.1294.741" timestamp="1606033274805" />
-    <state width="1248" height="242" key="GridCell.Tab.3.center" timestamp="1606033274804">
+    <state width="1248" height="242" key="GridCell.Tab.3.bottom/72.27.1294.741@72.27.1294.741" timestamp="1606756703123" />
+    <state width="1248" height="242" key="GridCell.Tab.3.center" timestamp="1606756703122">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.3.center/72.27.1294.741@72.27.1294.741" timestamp="1606033274804" />
-    <state width="1248" height="242" key="GridCell.Tab.3.left" timestamp="1606033274804">
+    <state width="1248" height="242" key="GridCell.Tab.3.center/72.27.1294.741@72.27.1294.741" timestamp="1606756703122" />
+    <state width="1248" height="242" key="GridCell.Tab.3.left" timestamp="1606756703122">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.3.left/72.27.1294.741@72.27.1294.741" timestamp="1606033274804" />
-    <state width="1248" height="242" key="GridCell.Tab.3.right" timestamp="1606033274805">
+    <state width="1248" height="242" key="GridCell.Tab.3.left/72.27.1294.741@72.27.1294.741" timestamp="1606756703122" />
+    <state width="1248" height="242" key="GridCell.Tab.3.right" timestamp="1606756703122">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.3.right/72.27.1294.741@72.27.1294.741" timestamp="1606033274805" />
-    <state width="1248" height="242" key="GridCell.Tab.4.bottom" timestamp="1606033274806">
+    <state width="1248" height="242" key="GridCell.Tab.3.right/72.27.1294.741@72.27.1294.741" timestamp="1606756703122" />
+    <state width="1248" height="242" key="GridCell.Tab.4.bottom" timestamp="1606756703123">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.4.bottom/72.27.1294.741@72.27.1294.741" timestamp="1606033274806" />
-    <state width="1248" height="242" key="GridCell.Tab.4.center" timestamp="1606033274805">
+    <state width="1248" height="242" key="GridCell.Tab.4.bottom/72.27.1294.741@72.27.1294.741" timestamp="1606756703123" />
+    <state width="1248" height="242" key="GridCell.Tab.4.center" timestamp="1606756703123">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.4.center/72.27.1294.741@72.27.1294.741" timestamp="1606033274805" />
-    <state width="1248" height="242" key="GridCell.Tab.4.left" timestamp="1606033274805">
+    <state width="1248" height="242" key="GridCell.Tab.4.center/72.27.1294.741@72.27.1294.741" timestamp="1606756703123" />
+    <state width="1248" height="242" key="GridCell.Tab.4.left" timestamp="1606756703123">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.4.left/72.27.1294.741@72.27.1294.741" timestamp="1606033274805" />
-    <state width="1248" height="242" key="GridCell.Tab.4.right" timestamp="1606033274805">
+    <state width="1248" height="242" key="GridCell.Tab.4.left/72.27.1294.741@72.27.1294.741" timestamp="1606756703123" />
+    <state width="1248" height="242" key="GridCell.Tab.4.right" timestamp="1606756703123">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="242" key="GridCell.Tab.4.right/72.27.1294.741@72.27.1294.741" timestamp="1606033274805" />
+    <state width="1248" height="242" key="GridCell.Tab.4.right/72.27.1294.741@72.27.1294.741" timestamp="1606756703123" />
     <state x="314" y="132" width="800" height="537" key="Rider.ProjectTemplateDialog.Size" timestamp="1605800843784">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="314" y="132" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/72.27.1294.741@72.27.1294.741" timestamp="1605800843784" />
-    <state x="424" y="79" width="579" height="643" key="RiderGenerateDialog" timestamp="1606405681801">
+    <state x="424" y="79" width="579" height="643" key="RiderGenerateDialog" timestamp="1606494044647">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="424" y="79" width="579" height="643" key="RiderGenerateDialog/72.27.1294.741@72.27.1294.741" timestamp="1606405681801" />
+    <state x="424" y="79" width="579" height="643" key="RiderGenerateDialog/72.27.1294.741@72.27.1294.741" timestamp="1606494044647" />
     <state x="272" y="227" width="1094" height="541" key="VCS.FileHistoryDialog" timestamp="1606235508457">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="272" y="227" width="1094" height="541" key="VCS.FileHistoryDialog/72.27.1294.741@72.27.1294.741" timestamp="1606235508457" />
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606148542967">
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606411808698">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1606148542967" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1606411808698" />
+    <state width="647" height="370" key="XDebugger.FullValuePopup" timestamp="1606756479756">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="647" height="370" key="XDebugger.FullValuePopup/72.27.1294.741@72.27.1294.741" timestamp="1606756479756" />
     <state x="613" y="259" width="549" height="283" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605159809202">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

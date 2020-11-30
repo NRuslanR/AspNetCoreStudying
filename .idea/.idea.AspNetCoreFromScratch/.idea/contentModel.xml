@@ -87,10 +87,40 @@
       <e p="Mvc" t="IncludeRecursive">
         <e p="Application" t="Include">
           <e p="Services" t="Include">
+            <e p="ToDo" t="Include">
+              <e p="Accounting" t="Include">
+                <e p="Dtos" t="Include">
+                  <e p="ToDoItem.cs" t="Include" />
+                </e>
+                <e p="IToDoItemAccountingService.cs" t="Include" />
+                <e p="Impls" t="Include">
+                  <e p="FakeInMemoryTodoItemAccountingService.cs" t="Include" />
+                </e>
+              </e>
+            </e>
             <e p="Trees" t="Include" />
           </e>
         </e>
         <e p="Areas" t="Include">
+          <e p="Files" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="UploadsController.cs" t="Include" />
+            </e>
+            <e p="Model" t="Include">
+              <e p="Uploads" t="Include">
+                <e p="FileUpload.cs" t="Include" />
+                <e p="MultipleFilesUpload.cs" t="Include" />
+                <e p="MultipleFilesUploadResult.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Views" t="Include">
+              <e p="Uploads" t="Include">
+                <e p="Multiple.cshtml" t="Include" />
+                <e p="MultipleResult.cshtml" t="Include" />
+                <e p="Single.cshtml" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Tests" t="Include">
             <e p="Controllers" t="Include">
               <e p="AppPartsController.cs" t="Include" />
@@ -144,6 +174,27 @@
                 <e p="Condition.cshtml" t="Include" />
                 <e p="Email.cshtml" t="Include" />
                 <e p="List.cshtml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="ToDo" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="PriorityItemsController.cs" t="Include" />
+            </e>
+            <e p="ViewComponents" t="Include">
+              <e p="PriorityItems" t="Include">
+                <e p="PriorityItems.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Views" t="Include">
+              <e p="PriorityItems" t="Include">
+                <e p="Components" t="Include">
+                  <e p="PriorityItems" t="Include">
+                    <e p="Default.cshtml" t="Include" />
+                    <e p="PVC.cshtml" t="Include" />
+                  </e>
+                </e>
+                <e p="Index.cshtml" t="Include" />
               </e>
             </e>
           </e>

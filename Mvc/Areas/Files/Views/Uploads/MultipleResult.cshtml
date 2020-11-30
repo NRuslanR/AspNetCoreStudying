@@ -1,0 +1,43 @@
+@model MultipleFilesUploadResult
+
+@{
+    ViewData["Title"] = "Multiple files upload Result";
+}
+
+@section StylesSection
+{
+    <style>
+       table {
+       border-collapse: collapse;
+       } 
+       
+       td {
+       border:  1px solid green;
+       }
+    </style>
+}
+
+<h1>Result:</h1>
+<h3>Total uploaded files size: @Model.TotalFileUploadedSize</h3>
+<h3>Uploaded files: @string.Join(", ", Model.UploadedFiles)</h3>
+@if (Model.NotUploadedFiles.Count > 0)
+{
+    <h3>Not uploaded files:</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>File Name</th>
+            <th>Error</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var errorFile in Model.NotUploadedFiles)
+        {
+            <tr>
+                <td>@errorFile.Key</td>
+                <td>@errorFile.Value</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

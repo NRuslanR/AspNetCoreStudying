@@ -20,6 +20,20 @@ using Mvc;
 #line hidden
 #nullable disable
 #nullable restore
+#line 2 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/_ViewImports.cshtml"
+using Mvc.Areas.Files.Model.Uploads;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/_ViewImports.cshtml"
+using Mvc.Application.Services.ToDo.Accounting.Dtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/Areas/Trees/Views/Shared/Partials/_TreeList.cshtml"
 using Mvc.Areas.Trees.Model.Common;
 
@@ -27,7 +41,7 @@ using Mvc.Areas.Trees.Model.Common;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5cf3ab574667b3325b650e0b55675675bf3c2f6f", @"/Areas/Trees/Views/Shared/Partials/_TreeList.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d1b723f423f1a97d1a961658293c2df24825f25", @"/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"31825da461a13a77d4fd52f616967388bbc7c3cf", @"/_ViewImports.cshtml")]
     public class Areas_Trees_Views_Shared_Partials__TreeList : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<TreeListViewModel>
     {
         #pragma warning disable 1998

@@ -19,8 +19,22 @@ using Mvc;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/_ViewImports.cshtml"
+using Mvc.Areas.Files.Model.Uploads;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/_ViewImports.cshtml"
+using Mvc.Application.Services.ToDo.Accounting.Dtos;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"348fcfbe9066a6dcfaf1778e8810ad3fbd03cb61", @"/Areas/Tests/Views/TagHelpers/Email.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d1b723f423f1a97d1a961658293c2df24825f25", @"/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"31825da461a13a77d4fd52f616967388bbc7c3cf", @"/_ViewImports.cshtml")]
     public class Areas_Tests_Views_TagHelpers_Email : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("mail-to", "support", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -60,7 +74,7 @@ using Mvc;
 #line hidden
 #nullable disable
             WriteLiteral("\n<h2>Our contacts:</h2>\nSupport: ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "348fcfbe9066a6dcfaf1778e8810ad3fbd03cb613878", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "348fcfbe9066a6dcfaf1778e8810ad3fbd03cb614262", async() => {
             }
             );
             __Mvc_Areas_Tests_TagHelpers_EmailTagHelper = CreateTagHelper<global::Mvc.Areas.Tests.TagHelpers.EmailTagHelper>();
@@ -75,7 +89,7 @@ using Mvc;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("<br>\nManufactoring: ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "348fcfbe9066a6dcfaf1778e8810ad3fbd03cb614952", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "348fcfbe9066a6dcfaf1778e8810ad3fbd03cb615336", async() => {
             }
             );
             __Mvc_Areas_Tests_TagHelpers_EmailTagHelper = CreateTagHelper<global::Mvc.Areas.Tests.TagHelpers.EmailTagHelper>();
@@ -90,7 +104,7 @@ using Mvc;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("<br>\nSales: ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("async-email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "348fcfbe9066a6dcfaf1778e8810ad3fbd03cb616018", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("async-email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "348fcfbe9066a6dcfaf1778e8810ad3fbd03cb616402", async() => {
                 WriteLiteral("sales");
             }
             );

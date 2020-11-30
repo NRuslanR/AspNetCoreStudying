@@ -1,0 +1,25 @@
+@model FileUpload
+
+@{
+    ViewData["Title"] = "Single fie upload";
+}
+
+<h1>Single file upload:</h1>
+<form 
+    enctype="multipart/form-data" 
+    method="post" 
+    asp-area="Files" 
+    asp-controller="Uploads" 
+    asp-action="Single"
+    >
+    <dl>
+        <dt>
+            <label asp-for="@Model.FileToUpload"></label>
+        </dt>
+        <dd>
+            <input type="file" asp-for="@Model.FileToUpload"/><br>
+            <span asp-validation-for="@Model.FileToUpload"></span>
+        </dd>
+    </dl>
+    <input type="submit" asp-area="Files" asp-controller="Uploads" asp-action="Single" value="Send File"/>
+</form>

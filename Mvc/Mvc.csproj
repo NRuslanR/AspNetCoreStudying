@@ -6,10 +6,16 @@
 
     <ItemGroup>
       <Folder Include="Application\Services\Trees" />
+      <Folder Include="Areas\Files\Views" />
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.0" />
       <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Areas\ToDo\Views\Components\PriorityItems\Default.cshtml" />
     </ItemGroup>
 
 </Project>

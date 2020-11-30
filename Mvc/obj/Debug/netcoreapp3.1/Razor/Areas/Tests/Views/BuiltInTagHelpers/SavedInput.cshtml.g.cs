@@ -19,8 +19,22 @@ using Mvc;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/_ViewImports.cshtml"
+using Mvc.Areas.Files.Model.Uploads;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "/home/ruslan/RiderProjects/AspNetCoreFromScratch/Mvc/_ViewImports.cshtml"
+using Mvc.Application.Services.ToDo.Accounting.Dtos;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5e3bac8d386d1eef89601a26b280ad2de35ec641", @"/Areas/Tests/Views/BuiltInTagHelpers/SavedInput.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d1b723f423f1a97d1a961658293c2df24825f25", @"/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"31825da461a13a77d4fd52f616967388bbc7c3cf", @"/_ViewImports.cshtml")]
     public class Areas_Tests_Views_BuiltInTagHelpers_SavedInput : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Mvc.Areas.Tests.Model.BuiltInTagHelpers.InputTodoItemsViewModel>
     {
         #line hidden
@@ -62,7 +76,7 @@ using Mvc;
             }
             );
             WriteLiteral("<h1>Ваши задания:</h1>\n<table>\n    <thead>\n    <tr>\n        <th>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e3bac8d386d1eef89601a26b280ad2de35ec6413694", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e3bac8d386d1eef89601a26b280ad2de35ec6414078", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper>();
@@ -83,7 +97,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</th>\n        <th>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e3bac8d386d1eef89601a26b280ad2de35ec6415161", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e3bac8d386d1eef89601a26b280ad2de35ec6415545", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper>();

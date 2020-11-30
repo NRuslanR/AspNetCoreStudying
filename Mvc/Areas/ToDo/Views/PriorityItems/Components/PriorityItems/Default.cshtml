@@ -1,0 +1,9 @@
+@model IEnumerable<Mvc.Application.Services.ToDo.Accounting.Dtos.ToDoItem>
+
+<h3>Priority Items</h3>
+<ul>
+    @foreach (var todoItem in Model)
+    {
+        <li>@todoItem.Name</li>
+    }
+</ul>
